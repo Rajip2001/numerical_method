@@ -1,0 +1,17 @@
+# Linear interpolation in python
+
+print('Enter first point:') # Reading first point
+x0 = float(input('x0 = '))
+y0 = float(input('y0 = '))
+
+print('Enter second point:') # Reading second point
+x1 = float(input('x1 = '))
+y1 = float(input('y1 = '))
+
+# Reading calculation point
+xp = float(input('Enter calculation point xp: '))
+
+yp = y0 + ((y1-y0)/(x1-x0)) * (xp - x0)
+
+
+print('Interpolated value at %0.4f is %0.4f' %(xp,yp))
