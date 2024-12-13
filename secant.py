@@ -20,8 +20,8 @@ def secant(x0,x1,e):
         condition = abs(f(x2)) > e
     print('\n Required root is: %0.8f' % x2)
 
-x0 = float(input('Enter First Guess: '))
-x1 = float(input('Enter Second Guess: '))
-e = float(input('Tolerable Error: '))
+x0 = float(input('Enter First Guess= '))
+x1 = float(input('Enter Second Guess= '))
+e = float(input('Tolerable Error= '))
 
 secant(x0,x1,e)
